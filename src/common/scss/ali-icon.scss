@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'my-icon';
+  /* project id 2110948 */
+  src: url('//at.alicdn.com/t/font_2110948_32030nuhyv.eot');
+  src: url('//at.alicdn.com/t/font_2110948_32030nuhyv.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_2110948_32030nuhyv.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_2110948_32030nuhyv.woff') format('woff'),
+  url('//at.alicdn.com/t/font_2110948_32030nuhyv.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_2110948_32030nuhyv.svg#iconfont') format('svg');
+}
+
+.my-icon {
+  font-family: 'my-icon';
+}
+
+.my-icon-finin:before {
+  content: "\e61f";
+  color: #1296db;
+}
+
+.my-icon-finout:before {
+  content: "\e612";
+  color: #1296db;
+}
+
+.my-icon-receive:before {
+  content: "\e72a";
+  color: #1296db;
+}
+
+.my-icon-purchase:before {
+  content: "\e70a";
+  color: #1296db;
+}
+
+.my-icon-retrieval:before {
+  content: "\e7e8";
+  color: #1296db;
+}
+
+.my-icon-check:before {
+  content: "\e7ea";
+  color: #1296db;
+}
