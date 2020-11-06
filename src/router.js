@@ -15,12 +15,7 @@ export default new Router({
       path: '/home',
       name: 'home',
       component: () => import('@/views/home')
-    },
-    {
-      path: '/setting',
-      name: 'setting',
-      component: () => import('@/views/setting')
-    },
+    }, 
     {
       path: '/purchaseapply',
       name: 'purchaseapply',

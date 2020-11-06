@@ -1,0 +1,31 @@
+{
+    "Language": "Language",
+    "Simplified-Chinese": "Simplified Chinese",
+    "English": "English",
+    "Fin-In":"Fin-In",
+    "Fin-Out":"Fin-Out",
+    "Fin-Binding":"Fin-Binding",
+    "StockTaking":"StockTaking",
+    "RawRequest":"RawRequest",
+    "Raw-Out":"Raw-Out",
+    "PurchaseApply":"PurchaseApply",
+
+    "PruRequest":"PruRequest",
+    "PurMgmt":"PurMgmt",
+    "Scan":"Scan",
+    "CheckAll":"CheckAll",
+    "Submit":"Submit",
+
+    "MaterialCode":"MaterialCode",
+    "CurQuantity":"CurQuantity",
+    "ColorInfo":"ColorInfo",
+    "MeasureUnit":"MeasureUnit",
+    "Quantity":"Quantity",
+    "PIQuantity":"please input quantity",
+    "DeliveryDate":"DeliveryDate",
+    "Purpose":"Purpose",
+    "PIPurpose":"please input purpose",
+    "Delete":"Delete",
+    "Date":"Date",
+    "Status":"Status"
+}

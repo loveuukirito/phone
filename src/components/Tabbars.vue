@@ -1,27 +1,31 @@
 <template>
   <div class="tabbar">
     <Tabbar v-model="active">
-      <TabbarItem name="home" icon="home-o" to="/home">主页</TabbarItem>
-      <TabbarItem name="setting" icon="setting-o" to="/setting">设置</TabbarItem>
+      <TabbarItem name="home" icon="home-o" to="/home">首页</TabbarItem>
+      <TabbarItem name="user" icon="user-o" to="/user">我的</TabbarItem>
     </Tabbar>
   </div>
 </template>
 
 <script>
-import { Tabbar, TabbarItem } from "vant"; 
+import { Tabbar, TabbarItem } from "vant";
 export default {
   components: {
     Tabbar,
-    TabbarItem
+    TabbarItem,
   },
   data() {
     return {
-      active: 'home',
+      active: "home",
     };
-  }, 
+  },
+  watch: {
+    $route(to, from) {
+      this.active = to.name;
+    },
+  },
 };
 </script>
 
 <style scoped>
-
 </style>

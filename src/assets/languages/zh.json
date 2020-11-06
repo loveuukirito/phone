@@ -1,0 +1,31 @@
+{
+    "Language": "语言",
+    "Simplified-Chinese": "简体中文",
+    "English": "英文",
+    "Fin-In":"成品入库",
+    "Fin-Out":"成品出库",
+    "Fin-Binding":"成品货位绑定",
+    "StockTaking":"库存盘点",
+    "RawRequest":"原料领用申请",
+    "Raw-Out":"原料领用出库",
+    "PurchaseApply":"原料采购申请",
+
+    "PruRequest":"采购申请",
+    "PurMgmt":"申请管理",
+    "Scan":"扫描",
+    "CheckAll":"全选",
+    "Submit":"提交",
+
+    "MaterialCode":"物料编号",
+    "CurQuantity":"当前数量",
+    "ColorInfo":"颜色",
+    "MeasureUnit":"计量单位",
+    "Quantity":"数量",
+    "PIQuantity":"请输入数量",
+    "DeliveryDate":"交货日期",
+    "Purpose":"用途",
+    "PIPurpose":"请输入用途",
+    "Delete":"删除",
+    "Date":"日期",
+    "Status":"状态"
+}
